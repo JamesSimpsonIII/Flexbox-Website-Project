@@ -1,0 +1,236 @@
+/* Universal Styles */ 
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Monda, sans-serif;
+    font-weight: 400;
+    text-align: center;
+}
+
+html {
+    background-color: #ffffff;
+    width: 100%;
+}
+
+span {
+    font-style: italic;
+    color: blueviolet;
+
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Julius Sans One', sans-serif;
+}
+
+.container {
+    display: flex;
+}
+
+/* Nav Styles */
+
+nav {
+    width: 100%;
+    height: 95px;
+    justify-content: space-between;  
+    align-items: center; 
+    border-bottom: 2px solid blueviolet;
+    position: fixed;
+    z-index: 10;
+    background-color: #ffffff;
+}
+
+h1 {
+    margin-left: 20px;
+
+}
+
+h1:hover {
+    cursor: pointer;
+}
+
+ul, li {
+    list-style: none;
+}
+
+li {
+    display: inline-block;
+    margin-right: 20px;
+    padding: 5px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    color: blueviolet;
+    
+
+}
+
+a {
+    text-decoration: none;
+    color: blueviolet;
+}
+
+li:hover, a:hover {
+    color: #ffffff;
+    background-color: blueviolet;
+    transition: .20s ease-in-out all;
+    padding: 7px;
+}
+
+li:active, a:active {
+    padding: 5px;
+    opacity: .8;
+}
+
+
+/* Jumbotron Styles */
+
+main {
+    display: flex;
+    height: 650px;
+    background: url(/trevor-gerzen-bIwKm5lQYsc-unsplash.jpg) no-repeat center;
+    align-items: center;
+    position: relative;
+    top: 97px;
+    
+}
+
+.jumbotron {
+    height: 120px;
+    width: 100%;
+    background-color: blueviolet;
+    opacity: .79;
+    
+    
+    
+}
+
+main h2 {
+    color: #ffffff;
+    margin: 40px auto;
+    font-size: 40px;
+    
+}
+
+/* Featured Items */
+
+.featured {
+    width: 100%;
+    margin-top: 150px;
+
+}
+
+.featured h1 {
+    color: blueviolet;
+    font-weight: 700;
+}
+
+.featuredContainer {
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-around;
+}
+
+.item1, .item2, .item3 {
+    width: 350px;
+    
+}
+
+.item1 img, .item2 img, .item3 img {
+    width: 100%;
+    border-radius: 10px;
+    
+    
+}
+
+.item2 {
+    align-self: center;
+    
+}
+
+.item2 img {
+    width: 400px;
+    height: 300px;
+}
+
+.item1 h3, .item2 h3, .item3 h3 {
+    margin-top: 10px;
+    font-weight: 700;
+    color: blueviolet;
+}
+
+.item1 p, .item2 p, .item3 p  {
+    margin-top: 10px;
+    font-weight: 400;
+}
+
+/* Team Section Styles */
+
+.team {
+    margin-top: 100px;
+    background-color: blueviolet;
+    margin-bottom: 50px;
+    
+}
+
+.team h1 {
+    color: #ffffff;
+    font-weight: 700;
+    position: relative;
+    top: 50px;
+    
+    
+    
+}
+
+.teamContainer {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 100px;
+    
+    
+}
+
+.teamContainer img {
+    width: 50%;
+    height: auto;
+    border-radius: 20px;
+}
+
+.Alex h3, .James h3, .Jamie h3 {
+    margin-top: 10px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.Alex p, .James p, .Jamie p  {
+    margin-top: 10px;
+    font-weight: 400;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+footer {
+    display: flex;
+    width: 100%;
+    height: 50px;
+    background-color: rgb(37, 35, 35);
+    align-items: center;
+    justify-content: space-between;
+    
+
+}
+
+
+
+small {
+    color: #ffffff;
+    margin-left: 15px;
+
+}
+
+.footerNav {
+    display: inline-block;
+    float: right;
+}
